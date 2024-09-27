@@ -17,7 +17,7 @@
 
     <!-- Router View for Page Content -->
     <v-main>
-      <v-container>
+      <v-container class="main-container">
         <router-view />
       </v-container>
     </v-main>
@@ -51,5 +51,11 @@ nav a {
 
 .logo-gif {
   width: 180px;
+}
+
+.main-container {
+  max-width: 100vw !important;
+  padding: 0 !important;
+  margin: 0px !important;
 }
 </style>
