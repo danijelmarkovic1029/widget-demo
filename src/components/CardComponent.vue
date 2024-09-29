@@ -13,7 +13,10 @@
         <v-progress-linear :active="isActive" color="deep-purple" height="4" indeterminate />
       </template>
 
-      <v-img :src="image" height="250" cover></v-img>
+      <div class="image-container">
+        <v-img :src="image" height="250" cover></v-img>
+        <div class="overlay-text">{{ houseType }}</div>
+      </div>
 
       <v-card-item>
         <v-card-title class="title">{{ title }}</v-card-title>
@@ -37,32 +40,6 @@
         </v-btn>
       </v-card-actions>
     </v-card>
-
-    <v-dialog v-model="dialog" max-width="600px">
-      <v-card>
-        <v-card-title>{{ title }}</v-card-title>
-        <v-card-subtitle>{{ subtitle }}</v-card-subtitle>
-
-        <v-card-text>
-          <v-img :src="image" height="300" cover></v-img>
-          <p>{{ description }}</p>
-        </v-card-text>
-
-        <v-card-item>
-          <v-card-title class="title">{{ title }}</v-card-title>
-  
-          <v-card-subtitle>
-            <span class="me-1">{{ subtitle }}</span>
-            <v-icon color="error" icon="mdi-fire-circle" size="small"></v-icon>
-          </v-card-subtitle>
-        </v-card-item>
-  
-        <v-card-text>
-          <div class="my-4 text-subtitle-1">{{ price }}</div>
-          <div>{{ description }}</div>
-        </v-card-text>
-      </v-card>
-    </v-dialog>
   </div>
 </template>
 
@@ -76,6 +53,10 @@ export default {
     subtitle: {
       type: String,
       default: 'Local Favorite',
+    },
+    houseType: {
+      type: String,
+      required: true,
     },
     image: {
       type: String,
@@ -118,13 +99,38 @@ export default {
       alert('Reservation made!');
     },
     showDetails() {
-      this.dialog = true;
+      this.$router.push({
+        name: 'detail-page',
+        params: { title: this.title },
+        query: {
+          subtitle: this.subtitle,
+          image: this.image,
+          price: this.price,
+          description: this.description,
+        },
+      });
     },
   },
 };
 </script>
 
 <style scoped>
+.image-container {
+  position: relative;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(208, 60, 11);
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+
 .hover-effect {
   transform: scale(1.05);
   transition: transform 0.3s, box-shadow 0.3s;

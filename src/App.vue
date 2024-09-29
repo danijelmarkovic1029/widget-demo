@@ -1,6 +1,5 @@
 <template>
   <v-app>
-    <!-- Navigation Bar -->
     <v-app-bar app color="primary" dark>
       <v-toolbar-title class="text-h6 logo-container">
         <img :src="require('@/assets/proptexx-logo.svg')" alt="P" class="logo-gif mt-2" />
@@ -8,21 +7,18 @@
 
       <v-spacer></v-spacer>
 
-      <!-- Navigation Links -->
-      <v-btn text to="/">Home</v-btn>
-      <v-btn text to="/properties">Properties</v-btn>
-      <v-btn text to="/about">About</v-btn>
-      <v-btn text to="/contact">Contact</v-btn>
+      <v-btn text to="/">Houses</v-btn>
+      <v-btn text to="/properties">Townhomes</v-btn>
+      <v-btn text to="/apartments">Apartments</v-btn>
+      <v-btn text to="/contact">Help</v-btn>
     </v-app-bar>
 
-    <!-- Router View for Page Content -->
     <v-main>
       <v-container class="main-container">
         <router-view />
       </v-container>
     </v-main>
 
-    <!-- Footer (Optional) -->
     <v-footer app color="primary" dark>
       <v-col class="text-center">
         <span>&copy; 2024 Real Estate App - All Rights Reserved</span>

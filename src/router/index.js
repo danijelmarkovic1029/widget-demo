@@ -1,14 +1,27 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../components/HomePage.vue';
 import Properties from '../components/PropertiesPage.vue';
-import About from '../components/AboutPage.vue';
+import Apartments from '../components/ApartmentPage.vue';
 import Contact from '../components/ContactPage.vue';
+import DetailPage from '../components/DetailPage.vue';
 
 const routes = [
   { path: '/', component: Home },
   { path: '/properties', component: Properties },
-  { path: '/about', component: About },
+  { path: '/apartments', component: Apartments },
   { path: '/contact', component: Contact },
+  {
+    path: '/details/:title',
+    name: 'detail-page',
+    component: DetailPage,
+    props: (route) => ({
+      title: route.params.title,
+      subtitle: route.query.subtitle,
+      image: route.query.image,
+      price: route.query.price,
+      description: route.query.description
+    }),
+  },
 ];
 
 const router = createRouter({

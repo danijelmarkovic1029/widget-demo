@@ -27,6 +27,7 @@
           :description="property.description"
           :availableTimes="property.availableTimes"
           :loading="loading"
+          :houseType="property.type"
         />
       </v-col>
     </v-row>
@@ -53,6 +54,7 @@ export default {
           price: '$48,000,000',
           description: '702 E Carver Rd, Tempe, AZ 85284.',
           availableTimes: ['5:30PM', '7:30PM', '8:00PM', '9:00PM'],
+          type: 'Essential appliances'
         },
 				{
           title: 'Cafe Badilico2',
@@ -63,6 +65,7 @@ export default {
           price: '$48,000,000',
           description: '702 E Carver Rd, Tempe, AZ 85284.',
           availableTimes: ['5:30PM', '7:30PM', '8:00PM', '9:00PM'],
+          type: 'Eat in kitchen area'
         },
 				{
           title: 'Cafe Badilico3',
@@ -73,6 +76,7 @@ export default {
           price: '$48,000,000',
           description: '702 E Carver Rd, Tempe, AZ 85284.',
           availableTimes: ['5:30PM', '7:30PM', '8:00PM', '9:00PM'],
+          type: 'Two large bedrooms'
         },
 				{
           title: 'Cafe Badilico4',
@@ -83,6 +87,7 @@ export default {
           price: '$48,000,000',
           description: '702 E Carver Rd, Tempe, AZ 85284.',
           availableTimes: ['5:30PM', '7:30PM', '8:00PM', '9:00PM'],
+          type: 'Gallery kitchen'
         },
 				{
           title: 'Cafe Badilico5',
@@ -93,6 +98,7 @@ export default {
           price: '$48,000,000',
           description: '702 E Carver Rd, Tempe, AZ 85284.',
           availableTimes: ['5:30PM', '7:30PM', '8:00PM', '9:00PM'],
+          type: 'Beautifyl sparkling pool'
         },
 				{
           title: 'Cafe Badilico6',
@@ -103,6 +109,7 @@ export default {
           price: '$48,000,000',
           description: '702 E Carver Rd, Tempe, AZ 85284.',
           availableTimes: ['5:30PM', '7:30PM', '8:00PM', '9:00PM'],
+          type: 'Essential appliances'
         },
 				{
           title: 'Cafe Badilico7',
@@ -113,6 +120,7 @@ export default {
           price: '$48,000,000',
           description: '702 E Carver Rd, Tempe, AZ 85284.',
           availableTimes: ['5:30PM', '7:30PM', '8:00PM', '9:00PM'],
+          type: 'Covered patio'
         },
 				{
           title: 'Cafe Badilico8',
@@ -123,6 +131,7 @@ export default {
           price: '$48,000,000',
           description: '702 E Carver Rd, Tempe, AZ 85284.',
           availableTimes: ['5:30PM', '7:30PM', '8:00PM', '9:00PM'],
+          type: 'Open: Sat 8am - 7pm'
         },
       ],
     };
