@@ -7,7 +7,11 @@
           Back to search
         </v-btn>
 
-        <v-card v-if="displayedProperty">
+        <v-card v-if="loading">
+          <v-card-title>Loading...</v-card-title>
+        </v-card>
+
+        <v-card v-if="!loading && displayedProperty">
           <v-card-title>{{ displayedProperty.title }}</v-card-title>
           <v-card-subtitle>{{ displayedProperty.subtitle }}</v-card-subtitle>
 
@@ -74,6 +78,7 @@ export default {
   data() {
     return {
       property: null,
+      loading: true
     };
   },
 	methods: {
@@ -99,9 +104,13 @@ export default {
       return this.getPropertyDetails || this.property;
     },
   },
-	mounted() {
+	async mounted() {
     console.log('start')
-    this.fetchPropertyDetails(this.title);
+    const property = await this.fetchPropertyDetails(this.title);
+    if (property) {
+      this.property = property;
+    }
+    this.loading = false
     // if (!this.getPropertyDetails) {
     // }
   },
