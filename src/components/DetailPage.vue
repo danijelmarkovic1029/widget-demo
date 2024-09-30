@@ -7,27 +7,27 @@
           Back to search
         </v-btn>
 
-        <v-card>
-          <v-card-title>{{ getPropertyDetails.title }}</v-card-title>
-          <v-card-subtitle>{{ getPropertyDetails.subtitle }}</v-card-subtitle>
+        <v-card v-if="displayedProperty">
+          <v-card-title>{{ displayedProperty.title }}</v-card-title>
+          <v-card-subtitle>{{ displayedProperty.subtitle }}</v-card-subtitle>
 
           <v-card-text>
-						<v-img :src="getPropertyDetails.image" height="300" cover></v-img>
-            <p>{{ getPropertyDetails.description }}</p>
+						<v-img :src="displayedProperty.image" height="300" cover></v-img>
+            <p>{{ displayedProperty.description }}</p>
           </v-card-text>
 
           <v-card-item>
-            <v-card-title class="title">{{ getPropertyDetails.title }}</v-card-title>
+            <v-card-title class="title">{{ displayedProperty.title }}</v-card-title>
   
             <v-card-subtitle>
-              <span class="me-1">{{ getPropertyDetails.subtitle }}</span>
+              <span class="me-1">{{ displayedProperty.subtitle }}</span>
               <v-icon color="error" icon="mdi-fire-circle" size="small"></v-icon>
             </v-card-subtitle>
           </v-card-item>
   
           <v-card-text>
-            <div class="my-4 text-subtitle-1">{{ getPropertyDetails.price }}</div>
-            <div>{{ getPropertyDetails.description }}</div>
+            <div class="my-4 text-subtitle-1">{{ displayedProperty.price }}</div>
+            <div>{{ displayedProperty.description }}</div>
           </v-card-text>
 
           <v-card-item class="detail-property">
@@ -35,24 +35,24 @@
             <h3 class="type my-2">Interior</h3>
             <v-card-subtitle>
               <ul class="two-column-list">
-                <li>Bedrooms: {{ getPropertyDetails.details.bedrooms }}</li>
-                <li>Bathrooms: {{ getPropertyDetails.details.bathrooms }}</li>
-                <li>Full Bathrooms: {{ getPropertyDetails.details.fullBathrooms }}</li>
-                <li>Half Bathrooms: {{ getPropertyDetails.details.halfBathrooms }}</li>
-                <li>Kitchen Features: {{ getPropertyDetails.details.kitchenFeatures }}</li>
-                <li>Heating: {{ getPropertyDetails.details.heating }}</li>
-                <li>Features: {{ getPropertyDetails.details.features }}</li>
-                <li>Has Fireplace: {{ getPropertyDetails.details.hasFireplace ? 'Yes' : 'No' }}</li>
+                <li>Bedrooms: {{ displayedProperty.details.bedrooms }}</li>
+                <li>Bathrooms: {{ displayedProperty.details.bathrooms }}</li>
+                <li>Full Bathrooms: {{ displayedProperty.details.fullBathrooms }}</li>
+                <li>Half Bathrooms: {{ displayedProperty.details.halfBathrooms }}</li>
+                <li>Kitchen Features: {{ displayedProperty.details.kitchenFeatures }}</li>
+                <li>Heating: {{ displayedProperty.details.heating }}</li>
+                <li>Features: {{ displayedProperty.details.features }}</li>
+                <li>Has Fireplace: {{ displayedProperty.details.hasFireplace ? 'Yes' : 'No' }}</li>
               </ul>
             </v-card-subtitle>
 
             <h3 class="type my-2">Property</h3>
             <v-card-subtitle>
               <ul class="two-column-list">
-                <li>Total Structure Area: {{ getPropertyDetails.details.interiorArea.totalStructureArea }} sqft</li>
-                <li>Total Interior Livable Area: {{ getPropertyDetails.details.interiorArea.totalInteriorLivableArea }}</li>
-                <li>Total Parking Spaces: {{ getPropertyDetails.details.property.parking.totalSpaces }}</li>
-                <li>Exterior Features: {{ getPropertyDetails.details.property.parking.exteriorFeatures }}</li>
+                <li>Total Structure Area: {{ displayedProperty.details.interiorArea.totalStructureArea }} sqft</li>
+                <li>Total Interior Livable Area: {{ displayedProperty.details.interiorArea.totalInteriorLivableArea }}</li>
+                <li>Total Parking Spaces: {{ displayedProperty.details.property.parking.totalSpaces }}</li>
+                <li>Exterior Features: {{ displayedProperty.details.property.parking.exteriorFeatures }}</li>
               </ul>
             </v-card-subtitle>
           </v-card-item>
@@ -65,22 +65,43 @@
 
 <script>
 import { mapActions, mapGetters } from 'vuex'
+import houseData from '@/assets/house.json';
 
 export default {
   props: ['title'],
+  data() {
+    return {
+      property: null,
+    };
+  },
 	methods: {
     ...mapActions('property', ['updatePropertyDetails']),
     goBack() {
       this.$router.go(-1);
+    },
+    fetchPropertyDetails(title) {
+      const property = houseData.find((p) => p.title === title);
+      if (property) {
+        this.property = property;
+        console.log('property');
+      } else {
+        console.error(`Property with title "${title}" not found.`);
+      }
     },
   },
   computed: {
     ...mapGetters('property', {
       getPropertyDetails: 'getPropertyDetails'
     }),
+    displayedProperty() {
+      return this.getPropertyDetails || this.property;
+    },
   },
 	mounted() {
-    console.log('start', this.getPropertyDetails.details);
+    if (!this.getPropertyDetails) {
+      console.log('start')
+      this.fetchPropertyDetails(this.title);
+    }
   },
 };
 </script>
