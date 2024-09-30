@@ -20,8 +20,7 @@
       </v-card-text>
     </v-card>
 
-    <!-- Modal for showing details -->
-    <v-dialog v-model="dialog" max-width="600px">
+    <!-- <v-dialog v-model="dialog" max-width="600px">
       <v-card>
         <v-card-title>{{ title }}</v-card-title>
         <v-card-subtitle>{{ price }}</v-card-subtitle>
@@ -36,7 +35,7 @@
           <v-btn text color="red" @click="dialog = false">Close</v-btn>
         </v-card-actions>
       </v-card>
-    </v-dialog>
+    </v-dialog> -->
   </div>
 </template>
 
@@ -71,14 +70,12 @@ export default {
     };
   },
   methods: {
-    onShare() {
-      alert('Shared!');
-    },
-    onExplore() {
-      alert('Exploring!');
-    },
     showDetails() {
-      this.dialog = true;
+      console.log('here', this.title);
+      this.$router.push({
+        name: 'apartment-detail',
+        params: { title: this.title },
+      });
     },
   },
 };

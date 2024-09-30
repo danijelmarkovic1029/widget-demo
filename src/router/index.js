@@ -4,7 +4,7 @@ import Properties from '../components/PropertiesPage.vue';
 import Apartments from '../components/ApartmentPage.vue';
 import Contact from '../components/ContactPage.vue';
 import DetailPage from '../components/DetailPage.vue';
-
+import ApartmentDetail from '../components/ApartmentDetail.vue';
 const routes = [
   { path: '/', component: Home },
   { path: '/properties', component: Properties },
@@ -20,6 +20,14 @@ const routes = [
       image: route.query.image,
       price: route.query.price,
       description: route.query.description
+    }),
+  },
+  {
+    path: '/apartments/:title',
+    name: 'apartment-detail',
+    component: ApartmentDetail,
+    props: (route) => ({
+      title: route.params.qwe,
     }),
   },
 ];
