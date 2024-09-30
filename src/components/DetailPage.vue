@@ -85,7 +85,7 @@ export default {
       const property = houseData.find((p) => p.title === title);
       if (property) {
         this.property = property;
-        console.log('property');
+        console.log('property', property);
       } else {
         console.error(`Property with title "${title}" not found.`);
       }
