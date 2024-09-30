@@ -34,9 +34,9 @@
 
       <v-divider class="mx-4 mb-1"></v-divider>
 
-      <v-card-actions>
-        <v-btn color="deep-purple-lighten-2" text="Reserve" block border @click.stop="reserve">
-          Rent
+      <v-card-actions class="view-property">
+        <v-btn class="text-none" color="primary" variant="flat" text="Reserve" block @click.stop="showDetails">
+          View Property
         </v-btn>
       </v-card-actions>
     </v-card>
@@ -154,5 +154,10 @@ export default {
   font-weight: 900;
   font-size: 20px;
   line-height: 24px;
+}
+
+.view-property {
+  max-width: 90%;
+  margin: auto;
 }
 </style>

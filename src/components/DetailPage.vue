@@ -90,7 +90,6 @@ export default {
       const property = houseData.find((p) => p.title === title);
       if (property) {
         this.property = property;
-        console.log('property', property);
       } else {
         console.error(`Property with title "${title}" not found.`);
       }
@@ -102,14 +101,11 @@ export default {
     }),
   },
 	async mounted() {
-    console.log('start')
     const property = await this.fetchPropertyDetails(this.title);
     if (property) {
       this.property = property;
     }
     this.loading = false
-    // if (!this.getPropertyDetails) {
-    // }
   },
 };
 </script>
