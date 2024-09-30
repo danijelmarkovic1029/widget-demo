@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import apartmentData from '@/assets/apartment.json';
+import propertyData from '@/assets/properties.json';
 
 export default {
 	props: ['title'],
@@ -36,8 +36,8 @@ export default {
 		goBack() {
 			this.$router.go(-1);
 		},
-		fetchApartmentDetails(title) {
-			const apartment = apartmentData.find((p) => p.title === title);
+		fetchTownhomeDetails(title) {
+			const apartment = propertyData.find((p) => p.title === title);
 			if (apartment) {
 				this.apartment = apartment;
 			} else {
@@ -48,7 +48,7 @@ export default {
 	async mounted() {
 		console.log('start', this.title);
 		if (this.title) {
-			const apartment = await this.fetchApartmentDetails(this.title);
+			const apartment = await this.fetchTownhomeDetails(this.title);
 			if (apartment) {
 				this.apartment = apartment;
 			}

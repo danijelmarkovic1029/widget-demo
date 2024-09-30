@@ -5,6 +5,7 @@ import Apartments from '../components/ApartmentPage.vue';
 import Contact from '../components/ContactPage.vue';
 import DetailPage from '../components/DetailPage.vue';
 import ApartmentDetail from '../components/ApartmentDetail.vue';
+import TownhomeDetail from '../components/TownhomeDetail.vue';
 const routes = [
   { path: '/', component: Home },
   { path: '/properties', component: Properties },
@@ -35,7 +36,7 @@ const routes = [
   {
     path: '/properties/:title',
     name: 'property-detail',
-    component: ApartmentDetail,
+    component: TownhomeDetail,
     props: (route) => ({
       title: route.params.title,
       price: route.query.price,
