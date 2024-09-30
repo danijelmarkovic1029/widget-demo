@@ -46,9 +46,6 @@ export default {
 		},
 	},
 	mounted() {
-		console.log('start', this.title);
-		console.log('start1', this.imageSrc);
-		console.log('start2', this.price);
 		if (this.title) {
 			const apartment = this.fetchApartmentDetails(this.title);
 			if (apartment) {

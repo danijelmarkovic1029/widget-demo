@@ -19,23 +19,6 @@
         <div>{{ descriptionLine2 }}</div>
       </v-card-text>
     </v-card>
-
-    <!-- <v-dialog v-model="dialog" max-width="600px">
-      <v-card>
-        <v-card-title>{{ title }}</v-card-title>
-        <v-card-subtitle>{{ price }}</v-card-subtitle>
-
-        <v-card-text>
-          <v-img :src="imageSrc" height="300" cover></v-img>
-          <p>{{ descriptionLine1 }}</p>
-          <p>{{ descriptionLine2 }}</p>
-        </v-card-text>
-
-        <v-card-actions>
-          <v-btn text color="red" @click="dialog = false">Close</v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-dialog> -->
   </div>
 </template>
 

@@ -35,7 +35,7 @@
       <v-divider class="mx-4 mb-1"></v-divider>
 
       <v-card-actions class="view-property">
-        <v-btn class="text-none" color="primary" variant="flat" text="Reserve" block @click.stop="showDetails">
+        <v-btn class="text-none" variant="flat" text="Reserve" block @click.stop="showDetails">
           View Property
         </v-btn>
       </v-card-actions>
@@ -159,5 +159,21 @@ export default {
 .view-property {
   max-width: 90%;
   margin: auto;
+
+  .v-btn {
+    background-color: #a53620;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    border: 2px;
+    transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+
+    &:hover {
+      background-color: white;
+      color: #a53620;
+      border: 2px solid #a53620;
+    }
+  }
 }
 </style>
