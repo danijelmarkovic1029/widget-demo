@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar app color="primary" dark>
       <v-toolbar-title class="text-h6 logo-container">
-        <img :src="require('@/assets/proptexx-logo.svg')" alt="P" class="logo-gif mt-2" />
+        <img src="https://irp.cdn-website.com/cba281d9/dms3rep/multi/Logo-01.svg" alt="P" class="logo-gif mt-2" />
       </v-toolbar-title>
 
       <v-spacer></v-spacer>

@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container style="max-width: 80%;">
     <v-row>
       <v-col
         v-for="(card, index) in cards"
@@ -7,7 +7,6 @@
         cols="12"
         sm="6"
         md="4"
-        lg="3"
       >
         <CardComponent2
           :title="card.title"
@@ -23,6 +22,7 @@
 
 <script>
 import CardComponent2 from './CardComponent2.vue';
+import propertiesData from '@/assets/properties.json'
 
 export default {
   components: {
@@ -30,71 +30,7 @@ export default {
   },
   data() {
     return {
-      cards: [
-        {
-          title: 'Top 10 Australian beaches',
-          price: '$4,800/mo',
-          imageSrc: 'https://photos.zillowstatic.com/fp/0da61330d8a1753cd9deb02f20926e2a-p_e.jpg',
-          descriptionLine1: 'Whitehaven Beach',
-          descriptionLine2: '27 Thelma Rd, Dorchester, MA',
-        },
-        {
-          title: 'Great Barrier Reef',
-          price: '$2,795/mo',
-          imageSrc: 'https://photos.zillowstatic.com/fp/86edbd5c25b1e9c7e5a0e3e93d6159e4-p_e.jpg',
-          descriptionLine1: 'Scenic coral reefs',
-          descriptionLine2: '36 Antwerp St #2, Brighton, MA 02135',
-        },
-        {
-          title: 'Great Barrier Reef',
-          price: '$2,795/mo',
-          imageSrc: 'https://photos.zillowstatic.com/fp/47c7ec717b0407036e1ab0d3d667848c-p_e.jpg',
-          descriptionLine1: 'Scenic coral reefs',
-          descriptionLine2: '324 Faneuil St #2, Brighton, MA 02135',
-        },
-				{
-          title: 'Great Barrier Reef',
-          price: '$2,795/mo',
-          imageSrc: 'https://photos.zillowstatic.com/fp/e8dda4914e3f03eca97bde0a6ce9bc32-p_e.jpg',
-          descriptionLine1: 'Scenic coral reefs',
-          descriptionLine2: '1526 Commonwealth Ave #B, Brighton, MA 02135',
-        },
-				{
-          title: 'Great Barrier Reef',
-          price: '$2,795/mo',
-          imageSrc: 'https://photos.zillowstatic.com/fp/003067f282d635edc58c3c64102ddf45-p_e.jpg',
-          descriptionLine1: 'Scenic coral reefs',
-          descriptionLine2: '22 Cresthill Rd, Brighton, MA 02135',
-        },
-				{
-          title: 'Great Barrier Reef',
-          price: '$2,795/mo',
-          imageSrc: 'https://photos.zillowstatic.com/fp/418d254ca386712b6f9b6da0d082ed9d-p_e.jpg',
-          descriptionLine1: 'Scenic coral reefs',
-          descriptionLine2: '2 Ayr Rd APT 5, Brighton, MA 02135',
-        },
-				{
-          title: 'Great Barrier Reef',
-          price: '$2,795/mo',
-          imageSrc: 'https://photos.zillowstatic.com/fp/eab03bcfd0f5bd3ed9466d97fa335f9c-p_e.jpg',
-          descriptionLine1: 'Scenic coral reefs',
-          descriptionLine2: '287 Maverick 505, Boston, MA 02128',
-        },
-				{
-          title: 'Great Barrier Reef',
-          price: '$2,795/mo',
-          imageSrc: 'https://photos.zillowstatic.com/fp/685e766d4787080fdf9658ff86085873-p_e.jpg',
-          descriptionLine1: 'Scenic coral reefs',
-          descriptionLine2: '190 Walnut, Dorchester, MA 02122',
-        },
-				{
-          title: 'Great Barrier Reef',
-          price: '$2,795/mo',
-          imageSrc: 'https://photos.zillowstatic.com/fp/93c248326bcbc73bf5bd0031afa09cdf-p_e.jpg',
-          descriptionLine1: 'Scenic coral reefs',
-          descriptionLine2: '12 Farrington Ave APT 2, Boston, MA 02134',
-        },
-      ],
+      cards: propertiesData
     };
   },
 };

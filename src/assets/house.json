@@ -1,0 +1,746 @@
+[
+  {
+    "title": "Antique door knobs",
+    "subtitle": "Local Favorite",
+    "image": "https://photos.zillowstatic.com/fp/f094f40dc5fe950120b0f2b58b9dc671-p_e.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Essential appliances",
+    "details": {
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "fullBathrooms": 3,
+      "halfBathrooms": 1,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 2650,
+        "totalInteriorLivableArea": "2,650 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Architectural beauty",
+    "subtitle": "Local Favorite",
+    "image": "https://photos.zillowstatic.com/fp/2460facc805856c4c12c5658341dc847-p_e.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Eat in kitchen area",
+    "details": {
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "fullBathrooms": 2,
+      "halfBathrooms": 1,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 1500,
+        "totalInteriorLivableArea": "2,650 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Updated kitchen",
+    "subtitle": "Local Favorite",
+    "image": "https://photos.zillowstatic.com/fp/80d427d64730779dd1a2414be8461970-p_e.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Two large bedrooms",
+    "details": {
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "fullBathrooms": 2,
+      "halfBathrooms": 1,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 2400,
+        "totalInteriorLivableArea": "2,650 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Wood burning fireplace",
+    "subtitle": "Local Favorite",
+    "image": "https://photos.zillowstatic.com/fp/bd1836872dbec506f4c70da528e1546b-p_e.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Gallery kitchen",
+    "details": {
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "fullBathrooms": 1,
+      "halfBathrooms": 2,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 2000,
+        "totalInteriorLivableArea": "2,320 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Antique door knobs",
+    "subtitle": "Local Favorite",
+    "image": "https://photos.zillowstatic.com/fp/761b7f4175ae4fd68c918db5f7043951-p_e.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Beautifyl sparkling pool",
+    "details": {
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "fullBathrooms": 2,
+      "halfBathrooms": 3,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 4320,
+        "totalInteriorLivableArea": "3,123 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Architectural beauty",
+    "subtitle": "Local Favorite",
+    "image": "https://photos.zillowstatic.com/fp/a4e910a0f71fa28fd137669d516bb548-p_e.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Essential appliances",
+    "details": {
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "fullBathrooms": 4,
+      "halfBathrooms": 2,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 2650,
+        "totalInteriorLivableArea": "2,650 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Updated kitchen",
+    "subtitle": "Local Favorite",
+    "image": "https://photos.zillowstatic.com/fp/09aca47e206969a2da00118315a9fdf1-p_e.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Covered patio",
+    "details": {
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "fullBathrooms": 4,
+      "halfBathrooms": 5,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 1200,
+        "totalInteriorLivableArea": "3,120 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Wood burning fireplace",
+    "subtitle": "Local Favorite",
+    "image": "https://photos.zillowstatic.com/fp/025d68609538a03f55bf060f55ab76bf-p_e.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Open: Sat 8am - 7pm",
+    "details": {
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "fullBathrooms": 2,
+      "halfBathrooms": 1,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 3520,
+        "totalInteriorLivableArea": "2,742 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 7
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Cafe Badilico1",
+    "subtitle": "Local Favorite",
+    "image": "https://photos.zillowstatic.com/fp/21b7c695be4a26060bf2ee265087900c-p_e.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Essential appliances",
+    "details": {
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "fullBathrooms": 3,
+      "halfBathrooms": 1,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 2650,
+        "totalInteriorLivableArea": "2,650 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Cafe Badilico2",
+    "subtitle": "Local Favorite",
+    "image": "https://photos.zillowstatic.com/fp/9ecbf760dba2782c72bad19715ff800c-sc_1152_768.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Eat in kitchen area",
+    "details": {
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "fullBathrooms": 2,
+      "halfBathrooms": 1,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 1500,
+        "totalInteriorLivableArea": "2,650 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Cafe Badilico3",
+    "subtitle": "Local Favorite",
+    "image": "https://photos.zillowstatic.com/fp/a3a099dafc554652bd8e8d93f68b6035-sc_1152_768.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Two large bedrooms",
+    "details": {
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "fullBathrooms": 2,
+      "halfBathrooms": 1,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 2400,
+        "totalInteriorLivableArea": "2,650 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Cafe Badilico4",
+    "subtitle": "Local Favorite4",
+    "image": "https://photos.zillowstatic.com/fp/8ed2b81fdb91ea3f0e11e87d09e6fcc0-p_d.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Gallery kitchen",
+    "details": {
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "fullBathrooms": 1,
+      "halfBathrooms": 2,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 2000,
+        "totalInteriorLivableArea": "2,320 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Cafe Badilico5",
+    "subtitle": "Local Favorite5",
+    "image": "https://photos.zillowstatic.com/fp/c975044aee65890af5e84cf33b53467d-p_d.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Beautifyl sparkling pool",
+    "details": {
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "fullBathrooms": 2,
+      "halfBathrooms": 3,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 4320,
+        "totalInteriorLivableArea": "3,123 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Cafe Badilico6",
+    "subtitle": "Local Favorite6",
+    "image": "https://photos.zillowstatic.com/fp/ca1c265511e58989caf7d58dc39ff5be-p_d.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Essential appliances",
+    "details": {
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "fullBathrooms": 4,
+      "halfBathrooms": 2,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 2650,
+        "totalInteriorLivableArea": "2,650 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Cafe Badilico7",
+    "subtitle": "Local Favorite7",
+    "image": "https://photos.zillowstatic.com/fp/d356b688619a32102d3191c0d88ce4ef-p_d.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Covered patio",
+    "details": {
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "fullBathrooms": 4,
+      "halfBathrooms": 5,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 1200,
+        "totalInteriorLivableArea": "3,120 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Cafe Badilico8",
+    "subtitle": "Local Favorite8",
+    "image": "https://photos.zillowstatic.com/fp/0aee4fe93d8fec8ccd6b06dc5f66ec57-p_d.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Open: Sat 8am - 7pm",
+    "details": {
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "fullBathrooms": 2,
+      "halfBathrooms": 1,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 3520,
+        "totalInteriorLivableArea": "2,742 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 7
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Cafe Badilico9",
+    "subtitle": "Local Favorite9",
+    "image": "https://photos.zillowstatic.com/fp/80c92e1017adb1a3f6c77283e766a303-p_e.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Essential appliances",
+    "details": {
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "fullBathrooms": 3,
+      "halfBathrooms": 1,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 2650,
+        "totalInteriorLivableArea": "2,650 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Cafe Badilico10",
+    "subtitle": "Local Favorite10",
+    "image": "https://photos.zillowstatic.com/fp/eafa5fc4968390cb8d2970fa357fa67b-p_e.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Eat in kitchen area",
+    "details": {
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "fullBathrooms": 2,
+      "halfBathrooms": 1,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 1500,
+        "totalInteriorLivableArea": "2,650 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Cafe Badilico11",
+    "subtitle": "Local Favorite11",
+    "image": "https://photos.zillowstatic.com/fp/3bdf7334b0df960d844ac8fc2dbb791e-p_e.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Two large bedrooms",
+    "details": {
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "fullBathrooms": 2,
+      "halfBathrooms": 1,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 2400,
+        "totalInteriorLivableArea": "2,650 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Cafe Badilico12",
+    "subtitle": "Local Favorite12",
+    "image": "https://photos.zillowstatic.com/fp/dc05115ea808afec485ba15f1cbd2322-p_e.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Gallery kitchen",
+    "details": {
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "fullBathrooms": 1,
+      "halfBathrooms": 2,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 2000,
+        "totalInteriorLivableArea": "2,320 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Cafe Badilico13",
+    "subtitle": "Local Favorite13",
+    "image": "https://photos.zillowstatic.com/fp/66f9d9b64ef178d1cd84324115439e1b-p_e.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Beautifyl sparkling pool",
+    "details": {
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "fullBathrooms": 2,
+      "halfBathrooms": 3,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 4320,
+        "totalInteriorLivableArea": "3,123 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Cafe Badilico14",
+    "subtitle": "Local Favorite14",
+    "image": "https://photos.zillowstatic.com/fp/1f6711540039e442dd44eaabe8fe126c-p_e.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Essential appliances",
+    "details": {
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "fullBathrooms": 4,
+      "halfBathrooms": 2,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 2650,
+        "totalInteriorLivableArea": "2,650 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Cafe Badilico15",
+    "subtitle": "Local Favorite15",
+    "image": "https://photos.zillowstatic.com/fp/e91ecfd1fbec9fd43f9755b013c4fca3-p_e.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Covered patio",
+    "details": {
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "fullBathrooms": 4,
+      "halfBathrooms": 5,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 1200,
+        "totalInteriorLivableArea": "3,120 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 2
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  },
+  {
+    "title": "Cafe Badilico16",
+    "subtitle": "Local Favorite16",
+    "image": "https://photos.zillowstatic.com/fp/9f11878c24f8a4fbf34b6a06d0736d06-p_e.jpg",
+    "rating": 4.5,
+    "reviews": 413,
+    "price": "$48,000,000",
+    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
+    "type": "Open: Sat 8am - 7pm",
+    "details": {
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "fullBathrooms": 2,
+      "halfBathrooms": 1,
+      "kitchenFeatures": "F",
+      "heating": "Heat Pump",
+      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
+      "hasFireplace": false,
+      "interiorArea": {
+        "totalStructureArea": 3520,
+        "totalInteriorLivableArea": "2,742 sqft"
+      },
+      "property": {
+        "parking": {
+          "totalSpaces": 7
+        },
+        "exteriorFeatures": ["cGdn", "Patio"]
+      }
+    }
+  }
+]

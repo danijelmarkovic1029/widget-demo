@@ -44,6 +44,8 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
+
 export default {
   props: {
     title: {
@@ -86,6 +88,10 @@ export default {
       type: Boolean,
       default: false,
     },
+    detail: {
+      type: Object,
+      required: true
+    }
   },
   data() {
     return {
@@ -95,19 +101,23 @@ export default {
     };
   },
   methods: {
+    ...mapActions('property', ['updatePropertyDetails']),
     reserve() {
       alert('Reservation made!');
     },
     showDetails() {
+      const data = {
+        title: this.title,
+        subtitle: this.subtitle,
+        image: this.image,
+        price: this.price,
+        description: this.description,
+        details: this.detail
+      };
+      this.updatePropertyDetails(data)
       this.$router.push({
         name: 'detail-page',
         params: { title: this.title },
-        query: {
-          subtitle: this.subtitle,
-          image: this.image,
-          price: this.price,
-          description: this.description,
-        },
       });
     },
   },
