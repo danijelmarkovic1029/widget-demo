@@ -3,7 +3,7 @@
 		<v-row justify="center">
 			<v-col cols="12" md="8">
 
-				<v-btn class="mb-4" @click="goBack" color="deep-purple" text>
+				<v-btn class="mb-4 back-to-search" @click="goBack" color="deep-purple" text>
 					Back to search
 				</v-btn>
 
@@ -24,6 +24,7 @@
 
 <script>
 import propertyData from '@/assets/properties.json';
+import '../assets/styles/global.css';
 
 export default {
 	props: ['title'],
