@@ -32,6 +32,16 @@ const routes = [
       imageSrc: route.query.imageSrc,
     }),
   },
+  {
+    path: '/properties/:title',
+    name: 'property-detail',
+    component: ApartmentDetail,
+    props: (route) => ({
+      title: route.params.title,
+      price: route.query.price,
+      imageSrc: route.query.imageSrc,
+    }),
+  },
 ];
 
 const router = createRouter({

@@ -8,7 +8,7 @@
         sm="6"
         md="4"
       >
-        <CardComponent2
+        <CardComponent3
           :title="card.title"
           :price="card.price"
           :imageSrc="card.imageSrc"
@@ -21,12 +21,12 @@
 </template>
 
 <script>
-import CardComponent2 from './CardComponent2.vue';
+import CardComponent3 from './CardComponent3.vue';
 import propertiesData from '@/assets/properties.json'
 
 export default {
   components: {
-    CardComponent2,
+    CardComponent3,
   },
   data() {
     return {
