@@ -56,8 +56,10 @@
               </ul>
             </v-card-subtitle>
           </v-card-item>
-          
         </v-card>
+        <div v-else>
+          <h3>Property not found</h3>
+        </div>
       </v-col>
     </v-row>
   </v-container>
@@ -98,10 +100,10 @@ export default {
     },
   },
 	mounted() {
-    if (!this.getPropertyDetails) {
-      console.log('start')
-      this.fetchPropertyDetails(this.title);
-    }
+    console.log('start')
+    this.fetchPropertyDetails(this.title);
+    // if (!this.getPropertyDetails) {
+    // }
   },
 };
 </script>
