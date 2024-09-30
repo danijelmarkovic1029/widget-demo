@@ -27,7 +27,9 @@ const routes = [
     name: 'apartment-detail',
     component: ApartmentDetail,
     props: (route) => ({
-      title: route.params.qwe,
+      title: route.params.title,
+      price: route.query.price,
+      imageSrc: route.query.imageSrc,
     }),
   },
 ];

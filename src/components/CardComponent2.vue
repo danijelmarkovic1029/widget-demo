@@ -71,7 +71,6 @@ export default {
   },
   methods: {
     showDetails() {
-      console.log('here', this.title);
       this.$router.push({
         name: 'apartment-detail',
         params: { title: this.title },
