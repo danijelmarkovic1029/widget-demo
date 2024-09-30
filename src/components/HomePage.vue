@@ -1,7 +1,7 @@
 <template>
   <v-container class="estate-container">
     <v-row>
-      <v-col cols="12">
+      <v-col cols="12" style="padding: 0px">
         <v-img
           src="https://www.zillowstatic.com/bedrock/app/uploads/sites/5/2024/07/image2-xl%401x.jpg"
           height="400px"

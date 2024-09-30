@@ -37,7 +37,7 @@ export default {
 <style>
 .header, .footer {
   background: linear-gradient(to bottom, #a63721, #d7674a) !important;
-  padding: 5px 0;
+  padding: 7px 0;
 }
 
 nav {
