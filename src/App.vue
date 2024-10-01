@@ -2,7 +2,8 @@
   <v-app>
     <v-app-bar class="header" app color="primary" dark>
       <v-toolbar-title class="text-h6 logo-container">
-        <img src="https://irp.cdn-website.com/cba281d9/dms3rep/multi/Logo_white.svg" alt="P" class="logo-gif mt-2" />
+        <img src="https://irp.cdn-website.com/cba281d9/dms3rep/multi/Logo_white.svg" @click="this.$router.push('/')"
+          alt="P" class="logo-gif mt-2" />
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
@@ -11,8 +12,6 @@
       <v-btn text to="/properties">Townhomes</v-btn>
       <v-btn text to="/apartments">Apartments</v-btn>
     </v-app-bar>
-a63721
-d7674a
     <v-main>
       <v-container class="main-container">
         <router-view />
@@ -34,7 +33,8 @@ export default {
 </script>
 
 <style>
-.header, .footer {
+.header,
+.footer {
   background: linear-gradient(to bottom, #a63721, #d7674a) !important;
   padding: 7px 0;
 }
@@ -45,6 +45,7 @@ nav {
   padding: 10px;
   background-color: #f5f5f5;
 }
+
 nav a {
   text-decoration: none;
   color: #333;
@@ -52,6 +53,7 @@ nav a {
 
 .logo-gif {
   width: 180px;
+  cursor: pointer;
 }
 
 .main-container {
