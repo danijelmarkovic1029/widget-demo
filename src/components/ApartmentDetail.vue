@@ -23,19 +23,16 @@
 				</v-card>
 			</v-col>
 		</v-row>
-    <HelpPage />
 	</v-container>
 </template>
 
 <script>
 import apartmentData from '@/assets/apartment.json';
 import '../assets/styles/global.css';
-import HelpPage from './HelpPage.vue';
 
 export default {
 	props: ['title', 'price', 'imageSrc'],
 	components: {
-    HelpPage
   },
 	data() {
 		return {

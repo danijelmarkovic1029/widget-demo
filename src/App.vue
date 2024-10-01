@@ -48,6 +48,9 @@ export default {
 </script>
 
 <style>
+.v-main {
+  padding-top: 90px !important;
+}
 .header,
 .footer {
   background: linear-gradient(to bottom, #a63721, #d7674a) !important;

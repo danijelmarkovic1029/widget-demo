@@ -32,19 +32,16 @@
         />
       </v-col>
     </v-row>
-    <HelpPage />
   </v-container>
 </template>
 
 <script>
 import CardComponent from './CardComponent.vue';
 import housesData from '@/assets/house.json';
-import HelpPage from './HelpPage.vue';
 
 export default {
   components: {
     CardComponent,
-    HelpPage
   },
   data() {
     return {
