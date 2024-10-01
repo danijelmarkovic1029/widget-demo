@@ -36,7 +36,7 @@ export default {
     loadExternalWidget() {
       if (!customElements.get('proptexx-widget')) {
         const script = document.createElement('script');
-        script.src = 'https://static.proptexx.com/widget/loader.js?k=MzkwNGQ3YTctYmRkZS00MDUxLWJjZTAtMzFiYmNjNmY1MmU0fGU0MGM4ZjkxLWY0NjYtNGMxZC05ZGM3LWJiZjhmNjIwMjIxOA';
+        script.src = 'https://static.proptexx.com/copilot/loader.js?k=MzkwNGQ3YTctYmRkZS00MDUxLWJjZTAtMzFiYmNjNmY1MmU0fGU0MGM4ZjkxLWY0NjYtNGMxZC05ZGM3LWJiZjhmNjIwMjIxOA';
         script.async = true;
         document.head.appendChild(script);
       } else {
