@@ -18,19 +18,19 @@
         />
       </v-col>
     </v-row>
-    <ContactPage />
+    <HelpPage />
   </v-container>
 </template>
 
 <script>
 import CardComponent2 from './CardComponent2.vue';
 import apartmentData from '@/assets/apartment.json';
-import ContactPage from './ContactPage.vue';
+import HelpPage from './HelpPage.vue';
 
 export default {
   components: {
     CardComponent2,
-    ContactPage
+    HelpPage
   },
   data() {
     return {

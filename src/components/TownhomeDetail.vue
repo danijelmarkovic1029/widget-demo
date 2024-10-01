@@ -20,19 +20,19 @@
 				</v-card>
 			</v-col>
 		</v-row>
-		<ContactPage />
+		<HelpPage />
 	</v-container>
 </template>
 
 <script>
 import propertyData from '@/assets/properties.json';
 import '../assets/styles/global.css';
-import ContactPage from './ContactPage.vue';
+import HelpPage from './HelpPage.vue';
 
 export default {
 	props: ['title'],
 	components: {
-		ContactPage
+		HelpPage
 	},
 	data() {
 		return {

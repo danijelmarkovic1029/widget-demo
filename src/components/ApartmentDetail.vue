@@ -23,19 +23,19 @@
 				</v-card>
 			</v-col>
 		</v-row>
-    <ContactPage />
+    <HelpPage />
 	</v-container>
 </template>
 
 <script>
 import apartmentData from '@/assets/apartment.json';
 import '../assets/styles/global.css';
-import ContactPage from './ContactPage.vue';
+import HelpPage from './HelpPage.vue';
 
 export default {
 	props: ['title', 'price', 'imageSrc'],
 	components: {
-    ContactPage
+    HelpPage
   },
 	data() {
 		return {

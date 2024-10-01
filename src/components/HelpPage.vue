@@ -15,10 +15,10 @@
 					1. Go to the listing page.
 				</p>
 				<p>
-					2. Open the widget
+					2. Open the widget.
 				</p>
 				<p>
-					3. Select an image in the widget
+					3. Select an image in the widget.
 				</p>
 				<p>
 					2. Choose the room type, style and generate the images.

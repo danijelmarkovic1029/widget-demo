@@ -29,7 +29,7 @@
           </v-card-item>
 
           <v-card-item class="card-item">
-            <v-card-title class="title">Basic Information</v-card-title>
+            <v-card-title class="title mb-2">Basic Information</v-card-title>
             <v-card-subtitle class="d-flex">
               <div class="mr-1 text-subtitle-1">Description: </div>
               <div class="me-1 description text-subtitle-1">{{ property.subtitle }}</div>
@@ -79,7 +79,7 @@
         </div>
       </v-col>
     </v-row>
-    <ContactPage />
+    <HelpPage />
   </v-container>
 </template>
 
@@ -87,12 +87,12 @@
 import { mapActions, mapGetters } from 'vuex'
 import houseData from '@/assets/house.json';
 import '../assets/styles/global.css';
-import ContactPage from './ContactPage.vue';
+import HelpPage from './HelpPage.vue';
 
 export default {
   props: ['title'],
   components: {
-    ContactPage
+    HelpPage
   },
   data() {
     return {
