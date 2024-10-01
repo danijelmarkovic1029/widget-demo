@@ -1,40 +1,18 @@
 <template>
-	<v-icon icon="mdi-help" class="fixed-button ma-2" size="large" @click="dialog = true"></v-icon>
-
-	<v-dialog v-model="dialog" max-width="600px">
-		<v-card>
-			<v-card-title class="headline">
-				<span>FAQ</span>
-				<v-btn icon="mdi-close" @click="dialog = false"></v-btn>
-			</v-card-title>
-			<v-card-title class="question">
-				How to work
-			</v-card-title>
-			<v-card-text>
-				<p>
-					1. Go to the listing page.
-				</p>
-				<p>
-					2. Open the widget.
-				</p>
-				<p>
-					3. Select an image in the widget.
-				</p>
-				<p>
-					2. Choose the room type, style and generate the images.
-				</p>
-			</v-card-text>
-
-			<v-card-title class="question">
-				How can I use this widget on my website?
-			</v-card-title>
-			<v-card-text>
-				<p>
-					To use the widget on your website, kindly contact the Proptexx team at support@proptexx.com to get the widget.
-				</p>
-			</v-card-text>
-		</v-card>
-	</v-dialog>
+	<v-alert
+	color="primary"
+	class="notification"
+	theme="dark"
+	prominent
+>
+	Welcome! 🎉<br />
+	"Need help converting images with AI? <br />Click the button at the bottom right corner to get started 👇. It’s super easy!"
+</v-alert>
+<v-img
+	class="hand-indicator"
+	src="https://upload.wikimedia.org/wikipedia/commons/2/26/Hand_down.png"
+	alt="Hand pointing down"
+></v-img>
 </template>
 
 <script>
@@ -52,46 +30,19 @@ export default {
 
 <style scoped>
 @keyframes pulse {
-  0% {
+  0%, 100% {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
+    transform: scale(1.05);
   }
 }
-.fixed-button {
-	position: fixed;
-	top: 100px;
-	right: 50px;
-	z-index: 1000;
-	background-color: #d3d3d3;
-	border-radius: 50%;
-	padding: 25px;
-	color: black;
-	transition: transform 0.5s ease, box-shadow 0.5s ease;
-	animation: pulse 2s infinite;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-	&:hover {
-		transform: scale(1.2);
-	}
-}
-
-.headline {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	font-size: 20px;
-	font-weight: bold;
-}
-
-.question {
-	min-width: 90%;
-	font-size: 17px;
-	font-weight: bold;
-	background: rgb(243 244 246);
-	margin: auto;
+.notification {
+  width: 280px;
+  position: fixed;
+  top: 105px;
+  right: 20px;
+  box-shadow: 0 4px 12px rgba(25, 118, 210, 1);
+  animation: pulse 2s infinite;
 }
 </style>

@@ -79,6 +79,7 @@
         </div>
       </v-col>
     </v-row>
+    <HelpPage />
   </v-container>
 </template>
 
@@ -86,10 +87,12 @@
 import { mapActions, mapGetters } from 'vuex'
 import houseData from '@/assets/house.json';
 import '../assets/styles/global.css';
+import HelpPage from './HelpPage.vue';
 
 export default {
   props: ['title'],
   components: {
+    HelpPage
   },
   data() {
     return {

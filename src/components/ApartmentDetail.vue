@@ -4,10 +4,7 @@
 			<v-col cols="12" md="6">
 
 				<v-btn class="mb-4 back-to-search" @click="goBack" text>
-					<v-icon
-						icon="mdi-arrow-left"
-						start
-					></v-icon>
+					<v-icon icon="mdi-arrow-left" start></v-icon>
 					Back to search
 				</v-btn>
 
@@ -23,17 +20,20 @@
 				</v-card>
 			</v-col>
 		</v-row>
+		<HelpPage />
 	</v-container>
 </template>
 
 <script>
 import apartmentData from '@/assets/apartment.json';
 import '../assets/styles/global.css';
+import HelpPage from './HelpPage.vue';
 
 export default {
 	props: ['title', 'price', 'imageSrc'],
 	components: {
-  },
+		HelpPage
+	},
 	data() {
 		return {
 			apartment: null,
