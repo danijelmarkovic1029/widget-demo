@@ -10,7 +10,6 @@
       <v-btn text to="/">Houses</v-btn>
       <v-btn text to="/properties">Townhomes</v-btn>
       <v-btn text to="/apartments">Apartments</v-btn>
-      <v-btn text to="/contact">Help</v-btn>
     </v-app-bar>
 a63721
 d7674a

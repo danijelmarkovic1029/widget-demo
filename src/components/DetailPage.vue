@@ -1,9 +1,13 @@
 <template>
   <v-container>
     <v-row justify="center">
-      <v-col cols="12" md="8">
+      <v-col cols="12" md="6">
 				
 				<v-btn class="mb-4 back-to-search" @click="goBack" text>
+          <v-icon
+            icon="mdi-arrow-left"
+            start
+          ></v-icon>
           Back to search
         </v-btn>
 
@@ -11,32 +15,41 @@
           <v-card-title>Loading...</v-card-title>
         </v-card>
 
-        <v-card v-if="!loading">
-          <v-card-title>{{ property.title }}</v-card-title>
-          <v-card-subtitle>{{ property.subtitle }}</v-card-subtitle>
+        <v-card v-if="!loading" class="v-card-no-border">
+          <v-card-item class="card-item">
+            <v-card-text>
+              <v-carousel height="450" show-arrows="hover" :continuous="false" delimiter-icon="mdi-square">
+                <v-carousel-item v-for="(each, index) in property.image" :key="index">
+                  <v-img :src="each" height="450" cover></v-img>
+                </v-carousel-item>
+              </v-carousel>
+              <v-card-title>{{ property.description }}</v-card-title>
 
-          <v-card-text>
-						<v-img :src="property.image" height="300" cover></v-img>
-            <p>{{ property.description }}</p>
-          </v-card-text>
+            </v-card-text>
+          </v-card-item>
 
-          <v-card-item>
-            <v-card-title class="title">{{ property.title }}</v-card-title>
-  
+          <v-card-item class="card-item">
+            <v-card-title class="title">Basic Information</v-card-title>
+            <v-card-subtitle class="d-flex">
+              <div class="mr-1 text-subtitle-1">Description: </div>
+              <div class="me-1 description text-subtitle-1">{{ property.subtitle }}</div>
+            </v-card-subtitle>
             <v-card-subtitle>
-              <span class="me-1">{{ property.subtitle }}</span>
-              <v-icon color="error" icon="mdi-fire-circle" size="small"></v-icon>
+              <div class="d-flex text-subtitle-1">
+                <span>Price: </span>
+                <span>
+                  {{ property.price }}
+                </span>
+              </div>
+            </v-card-subtitle>
+            <v-card-subtitle>
+              <div class="text-subtitle-1">Type: {{ property.title }}</div>
             </v-card-subtitle>
           </v-card-item>
   
-          <v-card-text>
-            <div class="my-4 text-subtitle-1">{{ property.price }}</div>
-            <div>{{ property.description }}</div>
-          </v-card-text>
-
-          <v-card-item class="detail-property">
+          <v-card-item class="card-item detail-property">
             <v-card-title class="title">Facts & Features</v-card-title>
-            <h3 class="type my-2">Interior</h3>
+            <h3 class="type my-2 py-2 px-2">Interior</h3>
             <v-card-subtitle>
               <ul class="two-column-list">
                 <li>Bedrooms: {{ property.details.bedrooms }}</li>
@@ -66,6 +79,7 @@
         </div>
       </v-col>
     </v-row>
+    <ContactPage />
   </v-container>
 </template>
 
@@ -73,9 +87,13 @@
 import { mapActions, mapGetters } from 'vuex'
 import houseData from '@/assets/house.json';
 import '../assets/styles/global.css';
+import ContactPage from './ContactPage.vue';
 
 export default {
   props: ['title'],
+  components: {
+    ContactPage
+  },
   data() {
     return {
       property: null,
@@ -120,10 +138,16 @@ export default {
   font-size: 20px;
   line-height: 24px;
 }
-
+.description {
+  display: block;
+  white-space: normal;
+  word-wrap: break-word; 
+  word-break: break-word;
+}
 .text-subtitle-1 {
   font-size: 16px;
-  color: grey;
+  color: black !important;
+  font-weight: bold;
 }
 
 .v-card-title {

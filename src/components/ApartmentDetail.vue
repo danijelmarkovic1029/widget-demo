@@ -1,9 +1,13 @@
 <template>
 	<v-container>
 		<v-row justify="center">
-			<v-col cols="12" md="8">
+			<v-col cols="12" md="6">
 
 				<v-btn class="mb-4 back-to-search" @click="goBack" text>
+					<v-icon
+						icon="mdi-arrow-left"
+						start
+					></v-icon>
 					Back to search
 				</v-btn>
 
@@ -19,15 +23,20 @@
 				</v-card>
 			</v-col>
 		</v-row>
+    <ContactPage />
 	</v-container>
 </template>
 
 <script>
 import apartmentData from '@/assets/apartment.json';
 import '../assets/styles/global.css';
+import ContactPage from './ContactPage.vue';
 
 export default {
 	props: ['title', 'price', 'imageSrc'],
+	components: {
+    ContactPage
+  },
 	data() {
 		return {
 			apartment: null,

@@ -7,6 +7,9 @@ import 'vuetify/styles';
 const vuetify = createVuetify({
   components,
   directives,
+  icons: {
+    defaultSet: 'mdi'
+  }
 });
 
 export default vuetify;

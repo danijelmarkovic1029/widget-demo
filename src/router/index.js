@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../components/HomePage.vue';
 import Properties from '../components/PropertiesPage.vue';
 import Apartments from '../components/ApartmentPage.vue';
-import Contact from '../components/ContactPage.vue';
 import DetailPage from '../components/DetailPage.vue';
 import ApartmentDetail from '../components/ApartmentDetail.vue';
 import TownhomeDetail from '../components/TownhomeDetail.vue';
@@ -10,7 +9,6 @@ const routes = [
   { path: '/', component: Home },
   { path: '/properties', component: Properties },
   { path: '/apartments', component: Apartments },
-  { path: '/contact', component: Contact },
   {
     path: '/details/:title',
     name: 'detail-page',

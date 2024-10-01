@@ -27,21 +27,24 @@
           :description="property.description"
           :availableTimes="property.availableTimes"
           :loading="loading"
-          :houseType="property.type"
+          :houseType="property.title"
           :detail="property.details"
         />
       </v-col>
     </v-row>
+    <ContactPage />
   </v-container>
 </template>
 
 <script>
 import CardComponent from './CardComponent.vue';
 import housesData from '@/assets/house.json';
+import ContactPage from './ContactPage.vue';
 
 export default {
   components: {
     CardComponent,
+    ContactPage
   },
   data() {
     return {

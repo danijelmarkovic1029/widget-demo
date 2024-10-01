@@ -1,39 +1,34 @@
 <template>
-  <div @click="showDetails" @mouseover="hover = true" @mouseleave="hover = false">
-    <v-card
-      :disabled="loading"
-      :loading="loading"
-      class="mx-auto my-12"
-      max-width="374"
-      :elevation="hover ? 10 : 2"
-      :class="{ 'hover-effect': hover }"
-      transition="scale-transition"
-    >
+  <div @mouseover="hover = true" @mouseleave="hover = false">
+    <v-card :disabled="loading" :loading="loading" class="mx-auto my-12" max-width="374" :elevation="hover ? 10 : 2"
+      :class="{ 'hover-effect': hover }" transition="scale-transition">
       <template v-slot:loader="{ isActive }">
         <v-progress-linear :active="isActive" color="deep-purple" height="4" indeterminate />
       </template>
 
       <div class="image-container">
-        <v-img :src="image" height="250" cover></v-img>
+        <v-carousel height="250" show-arrows="hover" :continuous="false" delimiter-icon="mdi-square">
+          <v-carousel-item v-for="(each, index) in image" :key="index">
+            <v-img :src="each" height="250" cover></v-img>
+          </v-carousel-item>
+        </v-carousel>
         <div class="overlay-text">{{ houseType }}</div>
       </div>
 
       <v-card-item>
-        <v-card-title class="title">{{ title }}</v-card-title>
+        <v-card-title class="title">{{ description }}</v-card-title>
 
         <v-card-subtitle>
-          <span class="me-1">{{ subtitle }}</span>
-          <v-icon color="error" icon="mdi-fire-circle" size="small"></v-icon>
+          <span class="me-1 description">{{ subtitle }}</span>
         </v-card-subtitle>
       </v-card-item>
 
       <v-card-text>
-        <div class="my-4 text-subtitle-1">{{ price }}</div>
-        <div>{{ description }}</div>
+        <div class="text-subtitle-1">{{ price }}</div>
+        <div>{{ title }}</div>
       </v-card-text>
 
       <v-divider class="mx-4 mb-1"></v-divider>
-
       <v-card-actions class="view-property">
         <v-btn class="text-none back-to-search" variant="flat" text="Reserve" block @click.stop="showDetails">
           View Property
@@ -61,7 +56,7 @@ export default {
       required: true,
     },
     image: {
-      type: String,
+      type: Array,
       required: true,
     },
     rating: {
@@ -127,6 +122,13 @@ export default {
 <style scoped>
 .image-container {
   position: relative;
+
+  .v-carousel {
+    .v-btn {
+      width: 24px !important;
+      height: 24px !important;
+    }
+  }
 }
 
 .overlay-text {
@@ -134,7 +136,7 @@ export default {
   top: 10px;
   left: 10px;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   background-color: rgb(208, 60, 11);
   padding: 2px 10px;
@@ -145,15 +147,24 @@ export default {
   transform: scale(1.05);
   transition: transform 0.3s, box-shadow 0.3s;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .title {
   text-transform: none;
   font-family: "Object Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
-  font-weight: 900;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 16px;
   line-height: 24px;
+}
+
+.description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
 }
 
 .view-property {

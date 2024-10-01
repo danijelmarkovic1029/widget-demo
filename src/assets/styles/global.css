@@ -1,14 +1,25 @@
 .back-to-search {
-	background-color: #a53620 !important;
-	color: white !important;
+	background-color: white !important;
+	color: gray !important;
 	font-family: sans-serif !important;
 	font-weight: bold !important;
 	font-style: italic;
 	transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
-	border: 2px solid #a53620 !important;
+	border: 2px solid lightgray !important;
 
 	&:hover {
-		background-color: white !important;
-		color: #a53620 !important;
+		background-color: lightgray !important;
 	}
+}
+
+.v-card-item.card-item {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 16px;
+	margin-bottom: 16px;
+}
+
+.v-card.v-card-no-border {
+	box-shadow: none
 }

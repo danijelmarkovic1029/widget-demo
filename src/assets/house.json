@@ -1,11 +1,15 @@
 [
   {
-    "title": "Antique door knobs",
-    "subtitle": "Local Favorite",
-    "image": "https://photos.zillowstatic.com/fp/f094f40dc5fe950120b0f2b58b9dc671-p_e.jpg",
+    "title": "Cozy Rustic Bedroom",
+    "subtitle": "Embrace the warmth of nature in this rustic bedroom with exposed wood beams and earthy tones. The natural textures, like a wooden bed frame and woolen blankets, create a homey, inviting atmosphere, perfect for unwinding after a long day.",
+    "image": [
+      "https://photos.zillowstatic.com/fp/4acc2e56a8528dc49679ecc4cfe0b8e5-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/bcf0a3d07ba6b9b39f9e665482a7f604-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/63dec555d14941973101d4772adcc2de-p_e.jpg"
+    ],
     "rating": 4.5,
     "reviews": 413,
-    "price": "$48,000,000",
+    "price": "$76,800,000",
     "description": "702 E Carver Rd, Tempe, AZ 85284.",
     "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
     "type": "Essential appliances",
@@ -31,13 +35,17 @@
     }
   },
   {
-    "title": "Architectural beauty",
-    "subtitle": "Local Favorite",
-    "image": "https://photos.zillowstatic.com/fp/2460facc805856c4c12c5658341dc847-p_e.jpg",
+    "title": "Scandinavian Retreat Bedroom",
+    "subtitle": "This Scandinavian-inspired bedroom is light, airy, and minimalist with its crisp white walls and natural wood accents. Soft textiles and greenery add warmth, while the clean design offers a serene space for relaxation.",
+    "image": [
+      "https://photos.zillowstatic.com/fp/408106ff2ecdd62d713f5ed2e2da0fd6-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/93d4d8c64fb612a7b978aa3ce530527a-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/e78ae3691456b43f7476b77f851f61af-p_e.jpg"
+    ],
     "rating": 4.5,
     "reviews": 413,
-    "price": "$48,000,000",
-    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "price": "$10,200,000",
+    "description": "1234 Elm St, Dallas, TX 75201",
     "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
     "type": "Eat in kitchen area",
     "details": {
@@ -62,13 +70,17 @@
     }
   },
   {
-    "title": "Updated kitchen",
-    "subtitle": "Local Favorite",
-    "image": "https://photos.zillowstatic.com/fp/80d427d64730779dd1a2414be8461970-p_e.jpg",
+    "title": "Custom Lighting System",
+    "subtitle": "Designed for those who value style and storage, this room features a luxurious walk-in closet. With ample shelving, hanging space, and drawers, it's ideal for organizing your wardrobe and accessories.",
+    "image": [
+      "https://photos.zillowstatic.com/fp/76389db24079c733c58c92a54c7f3003-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/d276cb0c7a34f62d01980efa7bc5de1c-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/c4fcb681af3099ea5b4bf2ddc31e0441-p_e.jpg"
+    ],
     "rating": 4.5,
     "reviews": 413,
-    "price": "$48,000,000",
-    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "price": "$44,500,000",
+    "description": "4567 Pine Ave, Orlando, FL 32801",
     "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
     "type": "Two large bedrooms",
     "details": {
@@ -93,13 +105,17 @@
     }
   },
   {
-    "title": "Wood burning fireplace",
-    "subtitle": "Local Favorite",
-    "image": "https://photos.zillowstatic.com/fp/bd1836872dbec506f4c70da528e1546b-p_e.jpg",
+    "title": "Chic Contemporary Bedroom",
+    "subtitle": "Step directly from your room into a beautifully landscaped private garden. Enjoy your morning coffee in a tranquil outdoor space, perfect for relaxation and entertaining guests.",
+    "image": [
+      "https://photos.zillowstatic.com/fp/af37aefceae732e126f8d704a74d41a0-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/a2b3a490e956464a6b976cf8ca5eb611-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/cc599396b748cf96169cfc7f119ff37d-p_e.jpg"
+    ],
     "rating": 4.5,
     "reviews": 413,
-    "price": "$48,000,000",
-    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "price": "$15,800,000",
+    "description": "8901 Maple Rd, Seattle, WA 98101",
     "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
     "type": "Gallery kitchen",
     "details": {
@@ -125,12 +141,17 @@
   },
   {
     "title": "Antique door knobs",
-    "subtitle": "Local Favorite",
-    "image": "https://photos.zillowstatic.com/fp/761b7f4175ae4fd68c918db5f7043951-p_e.jpg",
+    "subtitle": "This room is wired for a premium home theater experience, with built-in surround sound and projector-ready walls. Create your own movie nights or gaming sessions in a space designed for entertainment.",
+    "image": [
+      "https://photos.zillowstatic.com/fp/8e31578513806965dbd44680e3f4a6af-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/4974f8b184bf738fd316cc13716491a8-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/db6dacc219091c480fd4953b3f591501-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/a44fe99488bc93d374525285150138ba-p_e.jpg"
+    ],
     "rating": 4.5,
     "reviews": 413,
-    "price": "$48,000,000",
-    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "price": "$27,450,000",
+    "description": "222 Birch Dr, Miami, FL 33101",
     "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
     "type": "Beautifyl sparkling pool",
     "details": {
@@ -156,12 +177,17 @@
   },
   {
     "title": "Architectural beauty",
-    "subtitle": "Local Favorite",
-    "image": "https://photos.zillowstatic.com/fp/a4e910a0f71fa28fd137669d516bb548-p_e.jpg",
+    "subtitle": "The room boasts an ensuite bathroom complete with a soaking tub and rain shower. Marble countertops and heated floors add to the spa-like experience, ensuring comfort and relaxation.",
+    "image": [
+      "https://photos.zillowstatic.com/fp/9181c2ffac803ddbad4fc408f9941e71-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/1e0d51a506d8c49be3b934dd5e575711-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/dcddd5907f85366717df5e318353b220-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/c1ebec2c19f255b78bcd307dd0feb54d-p_e.jpg"
+    ],
     "rating": 4.5,
     "reviews": 413,
-    "price": "$48,000,000",
-    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "price": "$39,100,000",
+    "description": "1023 Cedar St, Denver, CO 80202",
     "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
     "type": "Essential appliances",
     "details": {
@@ -187,12 +213,17 @@
   },
   {
     "title": "Updated kitchen",
-    "subtitle": "Local Favorite",
-    "image": "https://photos.zillowstatic.com/fp/09aca47e206969a2da00118315a9fdf1-p_e.jpg",
+    "subtitle": "Control every aspect of your room with smart technology. From adjusting the thermostat to locking the door, this space is equipped for seamless living, offering convenience at your fingertips.",
+    "image": [
+      "https://photos.zillowstatic.com/fp/2707aaa7b15103d2141acc7e11ba7cf2-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/a2bf940822ffb2fce74741c608fa494a-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/d7c3e32b9d8889eebf17dc90bc0bf157-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/aefa373830f32302870770c95b91ceb5-p_e.jpg"
+    ],
     "rating": 4.5,
     "reviews": 413,
-    "price": "$48,000,000",
-    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "price": "$52,700,000",
+    "description": "789 Oak Blvd, Las Vegas, NV 89101",
     "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
     "type": "Covered patio",
     "details": {
@@ -218,12 +249,17 @@
   },
   {
     "title": "Wood burning fireplace",
-    "subtitle": "Local Favorite",
-    "image": "https://photos.zillowstatic.com/fp/025d68609538a03f55bf060f55ab76bf-p_e.jpg",
+    "subtitle": "A dedicated work area is designed for professionals, featuring a sleek desk, ergonomic chair, and plenty of outlets for all your devices. The space is perfect for remote work or creative projects.",
+    "image": [
+      "https://photos.zillowstatic.com/fp/a7fb32d232740491e925668d06758b93-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/c4b7b36e1002b13f9d8865b0745806ca-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/9fa979e348c12c0ebb2f983a0bcb1ecd-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/2eaae253ad7f12337f49c6f7f1a05a48-p_e.jpg"
+    ],
     "rating": 4.5,
     "reviews": 413,
-    "price": "$48,000,000",
-    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "price": "$68,900,000",
+    "description": "555 Spruce Ln, Chicago, IL 60601",
     "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
     "type": "Open: Sat 8am - 7pm",
     "details": {
@@ -249,12 +285,16 @@
   },
   {
     "title": "Cafe Badilico1",
-    "subtitle": "Local Favorite",
-    "image": "https://photos.zillowstatic.com/fp/21b7c695be4a26060bf2ee265087900c-p_e.jpg",
+    "subtitle": "Enjoy peace and quiet with advanced soundproofing technology. Whether you’re working, studying, or relaxing, you’ll be free from outside noise and able to focus in a serene environment.",
+    "image": [
+      "https://photos.zillowstatic.com/fp/9710ee7928aa1b94bc0eabe2e03751b4-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/825d380263e272857aa7eb7d93e30c80-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/7f5d9d08765ca212fe6332ddff9c83c3-p_e.jpg"
+    ],
     "rating": 4.5,
     "reviews": 413,
-    "price": "$48,000,000",
-    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "price": "$25,900,000",
+    "description": "1314 Willow Ct, Austin, TX 78701",
     "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
     "type": "Essential appliances",
     "details": {
@@ -280,12 +320,16 @@
   },
   {
     "title": "Cafe Badilico2",
-    "subtitle": "Local Favorite",
-    "image": "https://photos.zillowstatic.com/fp/9ecbf760dba2782c72bad19715ff800c-sc_1152_768.jpg",
+    "subtitle": "Stay warm during the winter months with heated flooring in both the bedroom and bathroom. This feature provides an extra layer of luxury, ensuring that your space remains cozy and comfortable all year round.",
+    "image": [
+      "https://photos.zillowstatic.com/fp/a0b85af8a45fd2dbf2dbb104bc6370ae-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/883d8070c52a67bc9599a4b60d01c528-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/27e647d4a1ec3814bbf1185620f2c827-p_e.jpg"
+    ],
     "rating": 4.5,
     "reviews": 413,
-    "price": "$48,000,000",
-    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "price": "$94,600,000",
+    "description": "6789 Redwood Ave, San Jose, CA 95101",
     "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
     "type": "Eat in kitchen area",
     "details": {
@@ -310,13 +354,17 @@
     }
   },
   {
-    "title": "Cafe Badilico3",
-    "subtitle": "Local Favorite",
-    "image": "https://photos.zillowstatic.com/fp/a3a099dafc554652bd8e8d93f68b6035-sc_1152_768.jpg",
+    "title": "Open-Concept Living Room",
+    "subtitle": "A spacious, open-concept living room that seamlessly blends with the kitchen and dining area. The neutral color palette and large windows make this room feel airy and bright, while plush seating and area rugs add comfort.",
+    "image": [
+      "https://photos.zillowstatic.com/fp/1945882ee7da0e0099df6f7b865aed1a-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/69198fe246a53117dde6746fd4922e4f-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/d97f5af604330bd6d878d8e55fd7e659-p_e.jpg"
+    ],
     "rating": 4.5,
     "reviews": 413,
-    "price": "$48,000,000",
-    "description": "702 E Carver Rd, Tempe, AZ 85284.",
+    "price": "$11,500,000",
+    "description": "9876 Aspen Way, Phoenix, AZ 85001",
     "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
     "type": "Two large bedrooms",
     "details": {
@@ -341,12 +389,16 @@
     }
   },
   {
-    "title": "Cafe Badilico4",
-    "subtitle": "Local Favorite4",
-    "image": "https://photos.zillowstatic.com/fp/8ed2b81fdb91ea3f0e11e87d09e6fcc0-p_d.jpg",
+    "title": "Mid-Century Modern Living Room",
+    "subtitle": "This mid-century modern living room is filled with vintage-inspired furniture, geometric patterns, and rich wood tones. A perfect mix of retro charm and modern comfort, the space invites conversation and relaxation.",
+    "image": [
+      "https://photos.zillowstatic.com/fp/a0f417ad32b35a83fc37e4dd068d13e8-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/b64bb8ba6c5da827214c658c02625450-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/33ad1c20c207df136b35f4113c635125-p_e.jpg"
+    ],
     "rating": 4.5,
     "reviews": 413,
-    "price": "$48,000,000",
+    "price": "$12,500,000",
     "description": "702 E Carver Rd, Tempe, AZ 85284.",
     "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
     "type": "Gallery kitchen",
@@ -372,12 +424,16 @@
     }
   },
   {
-    "title": "Cafe Badilico5",
-    "subtitle": "Local Favorite5",
-    "image": "https://photos.zillowstatic.com/fp/c975044aee65890af5e84cf33b53467d-p_d.jpg",
+    "title": "Bohemian Living Room",
+    "subtitle": "Full of vibrant colors and eclectic decor, this bohemian-style living room is a visual feast. Layered rugs, textured pillows, and hanging plants give the space a relaxed, lived-in feel that’s both cozy and artistic.",
+    "image": [
+      "https://photos.zillowstatic.com/fp/a0d925f02fdec8a9c82139fbb354bf20-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/11ca2074707d350b38c2c68fc3191854-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/d373b3c90cc9db0fcfb5598b6aaba703-p_e.jpg"
+    ],
     "rating": 4.5,
     "reviews": 413,
-    "price": "$48,000,000",
+    "price": "$32,750,000",
     "description": "702 E Carver Rd, Tempe, AZ 85284.",
     "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
     "type": "Beautifyl sparkling pool",
@@ -403,12 +459,16 @@
     }
   },
   {
-    "title": "Cafe Badilico6",
-    "subtitle": "Local Favorite6",
-    "image": "https://photos.zillowstatic.com/fp/ca1c265511e58989caf7d58dc39ff5be-p_d.jpg",
+    "title": "Industrial Loft Living Room",
+    "subtitle": "This industrial living room features exposed brick walls, metal fixtures, and minimalist furniture. The large windows and open floor plan create a loft-like atmosphere that’s perfect for urban living with an edge.",
+    "image": [
+      "https://photos.zillowstatic.com/fp/ba4e3a246f5bb16505f29884d5fda044-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/d93977c48d42487bbd35ee2fe6f292f5-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/67953ce5c307321e16e79f59d77508b8-p_e.jpg"
+    ],
     "rating": 4.5,
     "reviews": 413,
-    "price": "$48,000,000",
+    "price": "$67,200,000",
     "description": "702 E Carver Rd, Tempe, AZ 85284.",
     "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
     "type": "Essential appliances",
@@ -434,12 +494,16 @@
     }
   },
   {
-    "title": "Cafe Badilico7",
-    "subtitle": "Local Favorite7",
-    "image": "https://photos.zillowstatic.com/fp/d356b688619a32102d3191c0d88ce4ef-p_d.jpg",
+    "title": "Elegant Classic Living Room",
+    "subtitle": "A timeless living room with ornate details, like crown molding and a marble fireplace. Plush sofas and classic furniture pieces create a refined, comfortable space, perfect for entertaining or enjoying a quiet evening by the fire.",
+    "image": [
+      "https://photos.zillowstatic.com/fp/96b96c57407ae0a15ff87a84359d7abd-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/d93451e8c47c97a32e134cb14723480a-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/d3f3ca7e0d7c64c5a9b5375a83200ad1-p_e.jpg"
+    ],
     "rating": 4.5,
     "reviews": 413,
-    "price": "$48,000,000",
+    "price": "$14,900,000",
     "description": "702 E Carver Rd, Tempe, AZ 85284.",
     "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
     "type": "Covered patio",
@@ -465,12 +529,16 @@
     }
   },
   {
-    "title": "Cafe Badilico8",
-    "subtitle": "Local Favorite8",
-    "image": "https://photos.zillowstatic.com/fp/0aee4fe93d8fec8ccd6b06dc5f66ec57-p_d.jpg",
+    "title": "Modern Minimalist Bedroom",
+    "subtitle": "This sleek bedroom design emphasizes simplicity with clean lines and neutral colors. A low-profile bed, built-in storage, and subtle lighting create a peaceful, clutter-free retreat. Ideal for those who appreciate a minimalist aesthetic.",
+    "image": [
+      "https://photos.zillowstatic.com/fp/d158c7b9c44bccd9693bcc6c8234f7ea-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/58ba4ea4418d343a5e6d94a948b8bf54-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/6a99e6f0730847f08dea8995ee69a9d2-p_e.jpg"
+    ],
     "rating": 4.5,
     "reviews": 413,
-    "price": "$48,000,000",
+    "price": "$23,600,000",
     "description": "702 E Carver Rd, Tempe, AZ 85284.",
     "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
     "type": "Open: Sat 8am - 7pm",
@@ -496,12 +564,16 @@
     }
   },
   {
-    "title": "Cafe Badilico9",
-    "subtitle": "Local Favorite9",
-    "image": "https://photos.zillowstatic.com/fp/80c92e1017adb1a3f6c77283e766a303-p_e.jpg",
+    "title": "Luxurious Master Suite",
+    "subtitle": "This master suite exudes elegance with its plush bedding, velvet drapes, and a chandelier. The space is complemented by a spacious walk-in closet and an ensuite bathroom featuring a soaking tub, offering the ultimate in comfort and relaxation.",
+    "image": [
+      "https://photos.zillowstatic.com/fp/37de80c3149df084cbb7ac9baa11fe82-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/bf2c88a1f33924d50cc20a7711f350ca-p_e.jpg",
+      "https://photos.zillowstatic.com/fp/4c252ae26c20357cc1954bf29a14d195-p_e.jpg"
+    ],
     "rating": 4.5,
     "reviews": 413,
-    "price": "$48,000,000",
+    "price": "$51,300,000",
     "description": "702 E Carver Rd, Tempe, AZ 85284.",
     "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
     "type": "Essential appliances",
@@ -521,223 +593,6 @@
       "property": {
         "parking": {
           "totalSpaces": 2
-        },
-        "exteriorFeatures": ["cGdn", "Patio"]
-      }
-    }
-  },
-  {
-    "title": "Cafe Badilico10",
-    "subtitle": "Local Favorite10",
-    "image": "https://photos.zillowstatic.com/fp/eafa5fc4968390cb8d2970fa357fa67b-p_e.jpg",
-    "rating": 4.5,
-    "reviews": 413,
-    "price": "$48,000,000",
-    "description": "702 E Carver Rd, Tempe, AZ 85284.",
-    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
-    "type": "Eat in kitchen area",
-    "details": {
-      "bedrooms": 2,
-      "bathrooms": 3,
-      "fullBathrooms": 2,
-      "halfBathrooms": 1,
-      "kitchenFeatures": "F",
-      "heating": "Heat Pump",
-      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
-      "hasFireplace": false,
-      "interiorArea": {
-        "totalStructureArea": 1500,
-        "totalInteriorLivableArea": "2,650 sqft"
-      },
-      "property": {
-        "parking": {
-          "totalSpaces": 2
-        },
-        "exteriorFeatures": ["cGdn", "Patio"]
-      }
-    }
-  },
-  {
-    "title": "Cafe Badilico11",
-    "subtitle": "Local Favorite11",
-    "image": "https://photos.zillowstatic.com/fp/3bdf7334b0df960d844ac8fc2dbb791e-p_e.jpg",
-    "rating": 4.5,
-    "reviews": 413,
-    "price": "$48,000,000",
-    "description": "702 E Carver Rd, Tempe, AZ 85284.",
-    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
-    "type": "Two large bedrooms",
-    "details": {
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "fullBathrooms": 2,
-      "halfBathrooms": 1,
-      "kitchenFeatures": "F",
-      "heating": "Heat Pump",
-      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
-      "hasFireplace": false,
-      "interiorArea": {
-        "totalStructureArea": 2400,
-        "totalInteriorLivableArea": "2,650 sqft"
-      },
-      "property": {
-        "parking": {
-          "totalSpaces": 2
-        },
-        "exteriorFeatures": ["cGdn", "Patio"]
-      }
-    }
-  },
-  {
-    "title": "Cafe Badilico12",
-    "subtitle": "Local Favorite12",
-    "image": "https://photos.zillowstatic.com/fp/dc05115ea808afec485ba15f1cbd2322-p_e.jpg",
-    "rating": 4.5,
-    "reviews": 413,
-    "price": "$48,000,000",
-    "description": "702 E Carver Rd, Tempe, AZ 85284.",
-    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
-    "type": "Gallery kitchen",
-    "details": {
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "fullBathrooms": 1,
-      "halfBathrooms": 2,
-      "kitchenFeatures": "F",
-      "heating": "Heat Pump",
-      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
-      "hasFireplace": false,
-      "interiorArea": {
-        "totalStructureArea": 2000,
-        "totalInteriorLivableArea": "2,320 sqft"
-      },
-      "property": {
-        "parking": {
-          "totalSpaces": 2
-        },
-        "exteriorFeatures": ["cGdn", "Patio"]
-      }
-    }
-  },
-  {
-    "title": "Cafe Badilico13",
-    "subtitle": "Local Favorite13",
-    "image": "https://photos.zillowstatic.com/fp/66f9d9b64ef178d1cd84324115439e1b-p_e.jpg",
-    "rating": 4.5,
-    "reviews": 413,
-    "price": "$48,000,000",
-    "description": "702 E Carver Rd, Tempe, AZ 85284.",
-    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
-    "type": "Beautifyl sparkling pool",
-    "details": {
-      "bedrooms": 1,
-      "bathrooms": 1,
-      "fullBathrooms": 2,
-      "halfBathrooms": 3,
-      "kitchenFeatures": "F",
-      "heating": "Heat Pump",
-      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
-      "hasFireplace": false,
-      "interiorArea": {
-        "totalStructureArea": 4320,
-        "totalInteriorLivableArea": "3,123 sqft"
-      },
-      "property": {
-        "parking": {
-          "totalSpaces": 2
-        },
-        "exteriorFeatures": ["cGdn", "Patio"]
-      }
-    }
-  },
-  {
-    "title": "Cafe Badilico14",
-    "subtitle": "Local Favorite14",
-    "image": "https://photos.zillowstatic.com/fp/1f6711540039e442dd44eaabe8fe126c-p_e.jpg",
-    "rating": 4.5,
-    "reviews": 413,
-    "price": "$48,000,000",
-    "description": "702 E Carver Rd, Tempe, AZ 85284.",
-    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
-    "type": "Essential appliances",
-    "details": {
-      "bedrooms": 2,
-      "bathrooms": 3,
-      "fullBathrooms": 4,
-      "halfBathrooms": 2,
-      "kitchenFeatures": "F",
-      "heating": "Heat Pump",
-      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
-      "hasFireplace": false,
-      "interiorArea": {
-        "totalStructureArea": 2650,
-        "totalInteriorLivableArea": "2,650 sqft"
-      },
-      "property": {
-        "parking": {
-          "totalSpaces": 2
-        },
-        "exteriorFeatures": ["cGdn", "Patio"]
-      }
-    }
-  },
-  {
-    "title": "Cafe Badilico15",
-    "subtitle": "Local Favorite15",
-    "image": "https://photos.zillowstatic.com/fp/e91ecfd1fbec9fd43f9755b013c4fca3-p_e.jpg",
-    "rating": 4.5,
-    "reviews": 413,
-    "price": "$48,000,000",
-    "description": "702 E Carver Rd, Tempe, AZ 85284.",
-    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
-    "type": "Covered patio",
-    "details": {
-      "bedrooms": 4,
-      "bathrooms": 1,
-      "fullBathrooms": 4,
-      "halfBathrooms": 5,
-      "kitchenFeatures": "F",
-      "heating": "Heat Pump",
-      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
-      "hasFireplace": false,
-      "interiorArea": {
-        "totalStructureArea": 1200,
-        "totalInteriorLivableArea": "3,120 sqft"
-      },
-      "property": {
-        "parking": {
-          "totalSpaces": 2
-        },
-        "exteriorFeatures": ["cGdn", "Patio"]
-      }
-    }
-  },
-  {
-    "title": "Cafe Badilico16",
-    "subtitle": "Local Favorite16",
-    "image": "https://photos.zillowstatic.com/fp/9f11878c24f8a4fbf34b6a06d0736d06-p_e.jpg",
-    "rating": 4.5,
-    "reviews": 413,
-    "price": "$48,000,000",
-    "description": "702 E Carver Rd, Tempe, AZ 85284.",
-    "availableTimes": ["5:30PM", "7:30PM", "8:00PM", "9:00PM"],
-    "type": "Open: Sat 8am - 7pm",
-    "details": {
-      "bedrooms": 2,
-      "bathrooms": 1,
-      "fullBathrooms": 2,
-      "halfBathrooms": 1,
-      "kitchenFeatures": "F",
-      "heating": "Heat Pump",
-      "features": ["BayWin", "D/D", "EIK", "FP", "NewKit", "Study", "Sunny", "W/D"],
-      "hasFireplace": false,
-      "interiorArea": {
-        "totalStructureArea": 3520,
-        "totalInteriorLivableArea": "2,742 sqft"
-      },
-      "property": {
-        "parking": {
-          "totalSpaces": 7
         },
         "exteriorFeatures": ["cGdn", "Patio"]
       }
