@@ -9,14 +9,14 @@
           cover
         >
           <v-container class="white--text d-flex align-center justify-center" height="100%">
-            <h1 class="banner-text">Explore Top Properties</h1>
+            <h1 class="banner-text">Choose the listing to start</h1>
           </v-container>
         </v-img>
       </v-col>
     </v-row>
 
     <v-row style="max-width: 80%; margin: auto">
-      <v-col v-for="(property, index) in properties" :key="index" cols="12" sm="6" md="3">
+      <v-col v-for="(property, index) in properties" :key="index" cols="12" sm="6" md="4">
         <CardComponent
           :title="property.title"
           :subtitle="property.subtitle"
@@ -32,19 +32,19 @@
         />
       </v-col>
     </v-row>
-    <HelpPage />
+    <!-- <HelpPage /> -->
   </v-container>
 </template>
 
 <script>
 import CardComponent from './CardComponent.vue';
 import housesData from '@/assets/house.json';
-import HelpPage from './HelpPage.vue';
+// import HelpPage from './HelpPage.vue';
 
 export default {
   components: {
     CardComponent,
-    HelpPage
+    // HelpPage
   },
   data() {
     return {

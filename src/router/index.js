@@ -1,14 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../components/HomePage.vue';
-import Properties from '../components/PropertiesPage.vue';
-import Apartments from '../components/ApartmentPage.vue';
 import DetailPage from '../components/DetailPage.vue';
-import ApartmentDetail from '../components/ApartmentDetail.vue';
-import TownhomeDetail from '../components/TownhomeDetail.vue';
 const routes = [
   { path: '/', component: Home },
-  { path: '/properties', component: Properties },
-  { path: '/apartments', component: Apartments },
   {
     path: '/details/:title',
     name: 'detail-page',
@@ -19,26 +13,6 @@ const routes = [
       image: route.query.image,
       price: route.query.price,
       description: route.query.description
-    }),
-  },
-  {
-    path: '/apartments/:title',
-    name: 'apartment-detail',
-    component: ApartmentDetail,
-    props: (route) => ({
-      title: route.params.title,
-      price: route.query.price,
-      imageSrc: route.query.imageSrc,
-    }),
-  },
-  {
-    path: '/properties/:title',
-    name: 'property-detail',
-    component: TownhomeDetail,
-    props: (route) => ({
-      title: route.params.title,
-      price: route.query.price,
-      imageSrc: route.query.imageSrc,
     }),
   },
 ];
