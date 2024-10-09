@@ -12,22 +12,7 @@
       <v-container class="main-container">
         <router-view />
       </v-container>
-
-      <!-- <div class="notification1" ref="notification1">
-        <v-img :aspect-ratio="16 / 9" max-width="500" :src="imageSource" alt="123" class="mt-2">
-        </v-img>
-        <div class="widget-detail">
-          <p>Reimagine this property</p>
-          <p class="mt-2">Visualize the possibilities! Redesign rooms with new furnishings and see if this home fits
-            your lifestyle.
-          </p>
-        </div>
-        <div class="detail-close">
-          <v-icon class="close-icon" @click="autoClickWidgetButton">mdi-close</v-icon>
-        </div>
-      </div> -->
     </v-main>
-
     <v-footer class="footer" app color="primary" dark>
       <v-col class="text-center">
         <span>&copy; 2024 Real Estate App - All Rights Reserved</span>
@@ -114,55 +99,4 @@ nav a {
   margin: 0px !important;
 }
 
-.notification1 {
-  width: 400px;
-  height: 100px;
-  bottom: 100px;
-  right: 200px;
-  border: 2px solid #cf6146;
-  border-radius: 10px;
-  box-shadow: 10px 10px 30px #c0c0c0;
-  display: flex;
-  gap: 5px;
-  justify-content: space-between;
-  padding: 10px 10px 21px;
-  position: fixed;
-
-  .v-img {
-    height: 100%;
-    width: 112px;
-  }
-
-  .widget-detail {
-    p {
-      &:first-child {
-        color: var(--Dark-Grey, #191919);
-        font-family: Inter;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-      }
-
-      &:last-child {
-        color: var(--Dark-Grey, #191919);
-        font-family: Inter;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-      }
-    }
-  }
-
-  .detail-close {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-
-    i {
-      cursor: pointer;
-    }
-  }
-}
 </style>

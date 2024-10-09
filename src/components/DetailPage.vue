@@ -18,14 +18,14 @@
             <p>Get a complete picture of a property and see how it feets your needs using PropTexx AI Widget</p>
           </div>
           <div class="d-flex align-md-center justify-space-between ga-4 btn-group">
-            <div @click="isActive.value = false">Maybe later</div>
+            <div @click="closeAction">Maybe later</div>
             <div @click="widgetAction">Try widget in action</div>
           </div>
         </v-card>
       </template>
     </v-dialog>
 
-    <v-dialog v-model="dialog2" width="340">
+    <v-dialog v-model="notFoundDialog" width="340">
       <v-card>
         <template v-slot:text>
           <v-card-text class="not-found">
@@ -34,9 +34,9 @@
         </template>
         <v-card-actions class=" d-flex justify-sm-center align-md-center">
           <div class="btn-group">
-            <div @click="dialog2 = false">Try later</div>
+            <div @click="notFoundDialog = false">Try later</div>
           </div>
-          <!-- <v-btn text="Close" variant="text" @click="dialog2 = false"></v-btn> -->
+          <!-- <v-btn text="Close" variant="text" @click="notFoundDialog = false"></v-btn> -->
         </v-card-actions>
       </v-card>
     </v-dialog>
@@ -116,6 +116,19 @@
         </div>
       </v-col>
     </v-row>
+    <div class="notification-detail" @click="closeWidgetDetail">
+      <v-img :aspect-ratio="16 / 9" max-width="500" :src="imageSource" alt="widget detail" class="mt-2">
+      </v-img>
+      <div class="widget-detail">
+        <p>Reimagine this property</p>
+        <p class="mt-2">Visualize the possibilities! Redesign rooms with new furnishings and see if this home fits
+          your lifestyle.
+        </p>
+      </div>
+      <div class="detail-close">
+        <v-icon class="close-icon">mdi-close</v-icon>
+      </div>
+    </div>
     <!-- <HelpPage /> -->
   </v-container>
 </template>
@@ -136,7 +149,7 @@ export default {
       property: null,
       loading: true,
       dialog: false,
-      dialog2: false,
+      notFoundDialog: false,
       imageSource: require('@/assets/widget-detail1.png')
     };
   },
@@ -153,29 +166,86 @@ export default {
         console.error(`Property with title "${title}" not found.`);
       }
     },
+    closeAction() {
+      this.dialog = false;
+      this.detectWidgetButton();
+    },
+    closeWidgetDetail() {
+      const notificationDiv = document.querySelector('.notification-detail');
+      if (notificationDiv) {
+        notificationDiv.classList.remove('visible');
+      } else {
+        console.error('Notification div not found.');
+      }
+    },
+    
     widgetAction() {
       this.dialog = false;
       setTimeout(() => {
         this.autoClickWidgetButton();
       }, 200);
     },
-    autoClickWidgetButton() {
+
+    detectWidgetButton() {  // detect widget button
       const widgetElement = document.querySelector('proptexx-widget');
       if (!widgetElement) {
         console.log('Widget element not found.');
         this.dialog = false;
-        this.dialog2 = true;
+        this.notFoundDialog = true;
         return;
       }
       const shadowRoot = widgetElement.shadowRoot;
       const widgetDiv = shadowRoot.querySelector('.proptexx-widget');
       const widgetButton = widgetDiv.querySelector('.widget-trigger');
       if (shadowRoot && widgetDiv && widgetButton) {
+        const buttonRect = widgetButton.getBoundingClientRect();
+        const notificationDiv = document.querySelector('.notification-detail');
+
+        notificationDiv.style.position = 'fixed';
+        notificationDiv.style.visibility = 'hidden';
+
+        const notificationWidth = notificationDiv.offsetWidth;
+        const notificationHeight = notificationDiv.offsetHeight;
+
+        const buttonCenterX = buttonRect.left + (buttonRect.width / 2);
+        const buttonCenterY = buttonRect.top + (buttonRect.height / 2);
+
+        notificationDiv.style.left = `${buttonCenterX - notificationWidth}px`;
+        notificationDiv.style.top = `${buttonCenterY - notificationHeight}px`;
+
+        setTimeout(() => {
+          notificationDiv.style.visibility = 'visible';
+          notificationDiv.classList.add('visible');
+        });
+      } else {
+        console.log('Widget div inside shadow root not found.');
+        return
+      }
+      widgetButton.addEventListener('click', this.handleWidgetButtonClick);
+    },
+    
+    autoClickWidgetButton() { // widget dialog when try widget button
+      const widgetElement = document.querySelector('proptexx-widget');
+      if (!widgetElement) {
+        console.log('Widget element not found.');
+        this.dialog = false;
+        this.notFoundDialog = true;
+        return;
+      }
+      const shadowRoot = widgetElement.shadowRoot;
+      const widgetDiv = shadowRoot.querySelector('.proptexx-widget');
+      const widgetButton = widgetDiv.querySelector('.widget-trigger');
+      widgetButton.addEventListener('click', this.handleWidgetButtonClick);
+      if (shadowRoot && widgetDiv && widgetButton) {
         widgetButton.click();
       } else {
         console.log('Widget div inside shadow root not found.');
         return
       }
+    },
+
+    handleWidgetButtonClick() { // event occurs when the widget button is clicked
+      this.closeWidgetDetail();
     },
   },
   computed: {
@@ -359,5 +429,71 @@ export default {
   font-size: 18px;
   font-weight: 500;
   text-align: center;
+}
+
+
+.notification-detail {
+  cursor: pointer;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  transform-origin: bottom right;
+  width: 400px;
+  height: 100px;
+  bottom: 100px;
+  right: 200px;
+  border: 2px solid #cf6146;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px #c0c0c0;
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  padding: 10px 10px 21px;
+  position: fixed;
+  background: white;
+
+  &.visible {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform-origin: bottom right;
+  }
+
+  .v-img {
+    height: 100%;
+    width: 112px;
+  }
+
+  .widget-detail {
+    p {
+      &:first-child {
+        color: var(--Dark-Grey, #191919);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+
+      &:last-child {
+        color: var(--Dark-Grey, #191919);
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+
+  .detail-close {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    i {
+      cursor: pointer;
+    }
+  }
 }
 </style>
