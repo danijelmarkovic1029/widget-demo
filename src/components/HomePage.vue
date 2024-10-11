@@ -16,14 +16,14 @@
         <CardComponent :title="staging.title" :subtitle="staging.subtitle" :image="staging.image"
           :rating="staging.rating" :reviews="staging.reviews" :price="staging.price" :description="staging.description"
           :availableTimes="staging.availableTimes" :loading="loading" :houseType="staging.title"
-          :detail="staging.details" />
+          :detail="staging.details" :AImodel="staging.AImodel" />
       </v-col>
     
       <v-col cols="12" sm="4" md="4">
         <CardComponent :title="refurnishing.title" :subtitle="refurnishing.subtitle" :image="refurnishing.image"
           :rating="refurnishing.rating" :reviews="refurnishing.reviews" :price="refurnishing.price" :description="refurnishing.description"
           :availableTimes="refurnishing.availableTimes" :loading="loading" :houseType="refurnishing.title"
-          :detail="refurnishing.details" />
+          :detail="refurnishing.details" :AImodel="refurnishing.AImodel" />
       </v-col>
     
       <v-col cols="12" sm="4" md="4">
@@ -61,6 +61,7 @@ export default {
       loading: false,
       properties: housesData,
       staging: {
+        "AImodel": "Virtual Staging",
         "title": "Custom shining Room",
         "subtitle": "Designed for those who value style and storage, this room features a luxurious walk-in closet. With ample shelving, hanging space, and drawers, it's ideal for organizing your wardrobe and accessories.",
         "image": [
@@ -138,6 +139,7 @@ export default {
         }
       },
       refurnishing: {
+        "AImodel": "Virtual Refurnishing",
         "title": "Modern Indoor System",
         "subtitle": "Stay warm during the winter months with heated flooring in both the bedroom and bathroom. This feature provides an extra layer of luxury, ensuring that your space remains cozy and comfortable all year round.",
         "image": [

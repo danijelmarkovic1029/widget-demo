@@ -1,14 +1,15 @@
 <template>
   <div @mouseover="hover = true" @mouseleave="hover = false">
-    <v-card :disabled="loading" :loading="loading" class="mx-auto my-12 rounded-xl" max-width="374" :elevation="hover ? 10 : 2"
-      :class="{ 'hover-effect': hover }" transition="scale-transition">
-      <div class="image-container">
+    <v-card :disabled="loading" :loading="loading" class="mx-auto my-12 rounded-xl" max-width="374"
+      :elevation="hover ? 10 : 2" :class="{ 'hover-effect': hover }" transition="scale-transition">
+      <div class="image-container" @mouseover="showBanner = true" @mouseleave="showBanner = false">
+        <span v-if="AImodel && showBanner" class="banner">For {{ AImodel }}</span>
         <v-carousel height="250" show-arrows="hover" :continuous="false" delimiter-icon="mdi-square">
           <v-carousel-item v-for="(each, index) in image" :key="index">
             <v-img :src="each" height="250" cover @click.stop="showDetails"></v-img>
           </v-carousel-item>
         </v-carousel>
-        
+
       </div>
 
       <v-card-item @click.stop="showDetails">
@@ -23,7 +24,8 @@
       </v-card-item>
 
       <v-card-text @click.stop="showDetails">
-        <div class="text-subtitle-1">{{ detail.bedrooms }}bds | {{ detail.bathrooms}}ba | {{ detail.interiorArea.totalInteriorLivableArea}}</div>
+        <div class="text-subtitle-1">{{ detail.bedrooms }}bds | {{ detail.bathrooms }}ba | {{
+          detail.interiorArea.totalInteriorLivableArea }}</div>
       </v-card-text>
     </v-card>
   </div>
@@ -35,6 +37,9 @@ import '../assets/styles/global.css';
 
 export default {
   props: {
+    AImodel: {
+      type: String,
+    },
     title: {
       type: String,
       required: true,
@@ -85,6 +90,7 @@ export default {
       hover: false,
       dialog: false,
       selection: '',
+      showBanner: false
     };
   },
   methods: {
@@ -120,6 +126,22 @@ export default {
       width: 24px !important;
       height: 24px !important;
     }
+  }
+
+  .banner {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background: #d56549;
+    color: white;
+    z-index: 100;
+    padding: 0px 10px;
+    border-radius: 20px;
+    font-family: "Object Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
   }
 }
 
